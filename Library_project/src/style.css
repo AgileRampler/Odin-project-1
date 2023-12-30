@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap');
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+.button-el {
+    display: grid;
+    justify-content: center;
+    margin: 30px;
+}
+
+#newbook-btn {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+#book-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 20px;
+    padding: 20px;
+}
+label {
+    padding: 10px; 
+}
+
+input {
+    padding: 5px 20px; 
+}
+.new-form{
+    box-shadow: 5px 6px  black;
+    display: grid;
+    justify-content: center;
+
+}
+.submit {
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.book-card{
+  
+    margin: 30px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: solid;
+    height: 11rem;
+    width: 14rem;
+    left: 40%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-left: 50px;
+    max-height: fit-content;
+}
+h1,h2,p{
+    display: block;
+    justify-content: center;
+
+}
+p{
+    margin-left: 50px;
+}
+.remove-btn{
+    font-size: 20px;
+   margin-left: 50px;
+}
